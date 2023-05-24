@@ -1,0 +1,39 @@
+.container {
+  background-color: cadetblue;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.heading {
+  color: black;
+  font-family: 'Roboto';
+  font-size: 45px;
+  font-weight: 600;
+}
+.text-container {
+  width: 500px;
+  height: 150px;
+  background-color: darksalmon;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text-area {
+  border-radius: 10px;
+  border: 2px black solid;
+}
+.sub-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+p {
+  color: bisque;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 600;
+}
