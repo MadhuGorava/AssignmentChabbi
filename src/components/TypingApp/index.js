@@ -8,7 +8,7 @@ const TypingApp = () => {
   const [accuracy, setAccuracy] = useState(100)
   const [timer, setTimer] = useState(300) // 5 minutes in seconds
 
-  const targetKeys = 'asdfjkl;' // The keys to be practiced
+  const targetKeys = 'abcdefghijklmnopqrstuvwxyz;' // The keys to be practiced
 
   const handleKeyDown = event => {
     const {key} = event
